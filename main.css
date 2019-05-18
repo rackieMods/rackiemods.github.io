@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  font-family: Roboto;
+}
+body, html {
+  height: 100%;
+}
+
+.container {
+  /* The image used */
+  background-image: url("background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.5rem;
+}
+.col1 {
+  width: 30%;
+  padding-left: 10%;
+  padding-top: 15%;
+  text-shadow: 3px 2px 6px #000000;
+}
+a {
+  text-decoration: none;
+}
+.download {
+  width: 6rem;
+  background: #ff3300;
+  background-image: -webkit-linear-gradient(top, #ff3300, #262626);
+  background-image: -moz-linear-gradient(top, #ff3300, #262626);
+  background-image: -ms-linear-gradient(top, #ff3300, #262626);
+  background-image: -o-linear-gradient(top, #ff3300, #262626);
+  background-image: linear-gradient(to bottom, #ff3300, #262626);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  text-shadow: 2px 1px 6px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.masne {
+  display: flex;
+  width: 21%;
+  margin-left: 10%;
+  margin-top: 2%;
+  justify-content: space-between;
+}
