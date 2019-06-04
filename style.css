@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    color: coral;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+a:hover {
+    color: chocolate;
+}
+.nawigacja {
+    display: flex;
+    height: 10px;
+    margin-top: 15px;
+    font-size: 24px;
+    justify-content: center;
+}
+.zdjecie {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://source.unsplash.com/collection/62890/random');
+}
+.tytul {
+    padding: 80px;
+    font-size: 50px;
+    color: white;
+}
+
+.kolumny {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
+.kolumna {
+    width: 600px;
+    padding: 50px;
+}
+
+.kraje {
+    font-size: 40px;
+}
+
+.wykonal {
+    font-size: 15px;
+    color: white;
+}
